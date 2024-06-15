@@ -1,6 +1,6 @@
 # Sentiment Analysis with BERT Variants and Adversarial Training
 
-This repository contains an experiment comparing traditional BERT, whole word masking BERT, and whole word masking BERT with adversarial training for sentiment analysis. The goal is to evaluate the performance improvements offered by adversarial training on the sentiment classification task.
+This repository contains an experiment comparing traditional BERT, whole word masking BERT, and whole word masking BERT with adversarial training for sentiment analysis of car reviews dataset. The goal is to evaluate the performance improvements offered by adversarial training on the sentiment classification task.
 
 ## Table of Contents
 
@@ -9,11 +9,9 @@ This repository contains an experiment comparing traditional BERT, whole word ma
 - [Models](#models)
 - [Adversarial Training](#adversarial-training)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
-
+  
 ## Introduction
 
 This project implements sentiment analysis using different variants of BERT models. Specifically, it compares the performance of:
@@ -42,5 +40,15 @@ Adversarial training is implemented by generating adversarial examples using the
 
 To run this experiment, you need to install the required libraries. You can do this using the following command:
 
-```bash
 pip install torch transformers scikit-learn pandas tqdm matplotlib
+
+
+## Results
+The experiment results show that while adversarial training did not significantly improve accuracy in this instance, it did provide a slight improvement over the traditional and whole word masking BERT models. The highest accuracy achieved was 78.85%.
+
+## Contributing
+Contributions to improve this experiment or expand its scope are welcome. You can contribute by:  
+
+-Adding new BERT variants or other transformer models for comparison.  
+-Testing different hyperparameters or preprocessing techniques.  
+-Implementing additional evaluation metrics or visualization tools.  
