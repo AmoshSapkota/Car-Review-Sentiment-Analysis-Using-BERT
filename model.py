@@ -10,7 +10,6 @@ import matplotlib.pyplot as plt
 
 # Load sentiment dataset
 df = pd.read_csv('sentiment.csv')
-df = df.head(20000)
 
 # Data Preprocessing
 def preprocess_text(text):
