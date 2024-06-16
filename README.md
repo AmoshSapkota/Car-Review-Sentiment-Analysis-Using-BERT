@@ -44,7 +44,7 @@ pip install torch transformers scikit-learn pandas tqdm matplotlib
 
 
 ## Results
-The experiment results show that while adversarial training did not significantly improve accuracy in this instance, it did provide a slight improvement over the traditional and whole word masking BERT models. The highest accuracy achieved was 78.85%.
+The experiment results show that adversarial training did a slight improvement over the traditional and whole word masking BERT models. The traditional BERT model achieved an accuracy of 75.87%, the BERT with Whole Word Masking model improved accuracy to 75.87%, and the BERT with Whole Word Masking and Adversarial Training model reached the highest accuracy of 78.85%.
 
 ## Contributing
 Contributions to improve this experiment or expand its scope are welcome. You can contribute by:  
